@@ -1,0 +1,38 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Heart Hum</a>
+
+  <div class="collapse navbar-collapse" id="navbarDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target="#navbarDefault">
+        <a class="nav-link" routerLink="/recording">
+          <i class="fa fa-heartbeat" aria-hidden="true"></i> Recording
+        </a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target="#navbarDefault">
+        <a class="nav-link" routerLink="/recording-history">
+          <i class="fa fa-list" aria-hidden="true"></i> Recording History <span class="badge badge-pill badge-default pull-right">17</span>
+        </a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target="#navbarDefault">
+        <a class="nav-link" routerLink="/diagnostics">
+          <i class="fa fa-user-md" aria-hidden="true"></i> Diagnostics <span class="badge badge-pill badge-default pull-right">2</span>
+        </a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target="#navbarDefault">
+        <a class="nav-link" routerLink="/learn-more">
+          <i class="fa fa-leanpub" aria-hidden="true"></i>
+          Learn more</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hi, Vedran</a>
+        <div class="dropdown-menu" aria-labelledby="userMenu">
+          <a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i>Profile</a>
+          <a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

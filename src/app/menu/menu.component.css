@@ -1,0 +1,22 @@
+.fa {
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+
+li.nav-item.active > a[routerLink="/recording"] > i.fa-heartbeat {
+  color: #ff371c;
+}
+
+li.nav-item.active > a[routerLink="/recording-history"] > i.fa {
+  color: #98fb98;
+}
+
+li.nav-item.active > a[routerLink="/diagnostics"] > i.fa {
+  color: #95ecff;
+}
+
+li.nav-item.active > a[routerLink="/learn-more"] > i.fa {
+  color: #fff472;
+}
